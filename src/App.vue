@@ -105,7 +105,7 @@ export default class App extends Vue {
     <div class="case-wrapper">
       <div class="avatar">
         <md-avatar class="cyh md-large">
-          <img src="/assets/img/Cyh.png" alt="Avatar" />
+          <img src="/img/Cyh.png" alt="Avatar" />
         </md-avatar>
       </div>
       <div class="case">
@@ -130,7 +130,7 @@ export default class App extends Vue {
     </div>
     <md-dialog :md-active.sync="showDialog">
       <md-dialog-title>{{ selectedTip?.title }}</md-dialog-title>
-      <img :src="`/assets/img/${selectedTip?.place}.jpg`" width="80%"/>
+      <img :src="`/img/${selectedTip?.place}.jpg`" width="80%"/>
       <p>{{ selectedTip?.tip }}</p>
       <md-dialog-actions>
         <md-button class="md-primary" @click="showDialog = false">entendi</md-button>

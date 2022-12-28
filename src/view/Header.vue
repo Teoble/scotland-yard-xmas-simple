@@ -35,7 +35,7 @@ h1 {
 
 .xmas-title {
   font-family: 'Katibeh', sans-serif;
-  background-image: url('assets/img/header.png');
+  background-image: url('/img/header.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
